@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>РумТибет</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="conteiner">
+          <div class="header__inner">
+            <img class="header__logo" src="/img/headerlogo.svg" alt="#" />
+            <nav class="menu">
+              <ul class="menu__items">
+                <li class="menu__item">
+                  <a href="#" class="menu__item-link">Главная</a>
+                </li>
+                <li class="menu__item">
+                  <a href="#" class="menu__item-link">Про гида</a>
+                </li>
+                <li class="menu__item">
+                  <a href="#" class="menu__item-link">Программа тура</a>
+                </li>
+                <li class="menu__item">
+                  <a href="#" class="menu__item-link">Стоимость</a>
+                </li>
+                <li class="menu__item">
+                  <a href="#" class="menu__item-link">Блог</a>
+                </li>
+                <li class="menu__item">
+                  <a href="#" class="menu__item-link">Контакты</a>
+                </li>
+              </ul>
+              <button class="menu__btn">Консультация</button>
+            </nav>
+          </div>
+        </div>
+      </header>
+      <main class="main">
+        <section class="top">
+          <div class="conteiner">
+            <h1 class="title">
+              Насладись прогулкой в горах с командой единомышленников
+            </h1>
+            <div class="top__search">
+              <ul class="top__search-items">
+                <li class="top__search-item">
+                  <select class="top__search-sel" name="location">
+                    <option class="top__sel-item" value="">
+                      Локация для тура
+                    </option>
+                    <option class="top__sel-item" value="ru">Россия</option>
+                    <option class="top__sel-item" value="us">США</option>
+                    <option class="top__sel-item" value="uk">
+                      Великобритания
+                    </option>
+                  </select>
+                  <p class="top__search-text">выберите из списка</p>
+                </li>
+                <li class="top__search-item">
+                  <div class="top__search-date">
+                    <input class="search__date" type="date" name="start-date" />
+                    <input class="search__date" type="date" name="final-date" />
+                  </div>
+                  <p class="top__search-text">укажите диапазон</p>
+                </li>
+                <li class="top__search-item">
+                  <select class="top__search-sel" name="quantity">
+                    <option class="top__sel-item" value="">Участники</option>
+                    <option class="top__sel-item" value="4">4</option>
+                    <option class="top__sel-item" value="5">5</option>
+                    <option class="top__sel-item" value="6">6</option>
+                  </select>
+                  <p class="top__search-text">минимум 4 человека</p>
+                </li>
+                <li class="top__search-item">
+                  <button class="top__search-btn">Найти программу</button>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        <section class="title__img">
+          <img src="/img/titleimg.png" alt="#" />
+        </section>
+      </main>
+      <footer class="footer"></footer>
+    </div>
+  </body>
+</html>
