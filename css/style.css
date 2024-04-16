@@ -506,6 +506,10 @@ body {
   cursor: pointer;
 }
 
+.trevel {
+  padding-top: 80px;
+}
+
 .blog {
   background-color: rgba(243, 245, 244, 1);
 }
@@ -570,4 +574,112 @@ body {
   font-weight: 700;
   line-height: 20px;
   color: #1a3e3e;
+}
+
+.trevel__btn {
+  text-align: center;
+}
+
+.trevel__head-btn {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  color: #fdfdfd;
+  background-color: #1a3e3e;
+  border-radius: 4px;
+  padding: 12px 24px 12px 24px;
+  max-height: 52px;
+  min-width: 244px;
+  border: 1px solid #1a3e3e;
+  transition: background-color 1s ease-in-out;
+  margin-top: 52px;
+  margin-bottom: 100px;
+}
+
+.trevel__head-btn:hover {
+  background-color: #fdfdfd;
+  color: #1a3e3e;
+  cursor: pointer;
+}
+
+.gallery__item-name {
+  color: #f2be22;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 20px;
+  margin-bottom: 8px;
+  text-align: center;
+  margin-top: 80px;
+}
+
+.gallery__item-header {
+  color: #18121e;
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 38.4px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.gallery__photo {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.gallery__photo-img {
+  border-radius: 6;
+}
+
+.gallery__photo-img:hover {
+  cursor: pointer;
+}
+
+.gallery__head-btn {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  color: #fdfdfd;
+  background-color: #1a3e3e;
+  border-radius: 4px;
+  padding: 12px 24px 12px 24px;
+  max-height: 52px;
+  min-width: 244px;
+  border: 1px solid #1a3e3e;
+  transition: background-color 1s ease-in-out;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+.gallery__head-btn:hover {
+  background-color: #fdfdfd;
+  color: #1a3e3e;
+  cursor: pointer;
+}
+
+.footer__head {
+  display: flex;
+  gap: 64px;
+  background-color: #795de0;
+}
+
+.footer__item-name {
+  color: #f2be22;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 20px;
+  margin-bottom: 8px;
+  text-align: left;
+  margin-top: 80px;
+  margin-left: 100px;
+}
+
+.footer__item-header {
+  color: #18121e;
+  font-size: 26px;
+  font-weight: 800;
+  line-height: 31.2px;
+  margin-bottom: 40px;
+  text-align: left;
+  margin-left: 100px;
 }
